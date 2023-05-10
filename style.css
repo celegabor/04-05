@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(234, 237, 237);
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    font-size: 1.1em;
+}
+
+header{
+    background-color: rgb(34, 47, 62);
+    height: 83px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* sezione nav */
+nav{
+    background-color: rgb(53, 71, 88);
+    height: 30px;
+    line-height: 30px;
+    justify-self: flex-end;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-left: 17px;
+}
+nav li{
+    margin: 0 10px;
+    color: white;
+    font-size: 0.85em;
+}
+
+
+/* sezione main */
+
+main{
+    padding: 30px;
+}
+#strisciaArancione{
+    height: 30px; 
+    background-color: rgb(245, 102, 0); 
+    text-align: center; 
+    line-height: 30px; 
+    color: white;
+    font-size: 0.9em;
+}
+#immagineBG{
+    background-image: url(assets-2/bg-image.png);
+    background-size: 92%; 
+    margin-top: 30px;
+    height: 25vh;
+    padding: 40px;
+}
+main div h3, p{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+} 
+#immagineBG h3{
+    font-size: 1.9em;
+    font-weight: 500;
+}
+
+#fourImg{
+    height: 58vh;
+    width: 100% - (30px * 2);
+    background-color: white;
+    margin-top: 30px;
+}
+
+#fourImg div div, a{
+    margin: 10px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+#quattroCarte{
+    height: 90%; 
+    padding: 20px 0; 
+    display: flex;
+}
+
+.card{
+    height: 100%;
+    width: 25%;
+    border-radius: 10%;
+    margin: 0 20px;
+    filter: drop-shadow(2px 2px 15px rgb(158, 154, 154));
+}
+
+#vr{ 
+    margin-top: 30px;   
+    height: 53vh;
+    width: 100%;
+}
+#vr img{
+    height: 100%;
+    width: 100%;
+}
+#marshall{ 
+    margin-top: 25px;   
+    height: 53vh;
+    width: 100%;
+}
+#marshall img{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* footer */
+footer{
+    height: 30vh;
+    background-color: rgb(34, 47, 62);
+}
+.back{
+    height: 40px;
+    background-color: rgb(53, 71, 88);
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 100;
+}
+
+
+
+/* nuova parte */
+
+
+#newPart{
+    height: 53vh;
+    width: 100%;
+    display: flex;
+    margin: 30px 0 0 0;
+}
+
+#newPart .newCard:first-child{
+    margin-left: 0;
+}
+#newPart .newCard:last-child{
+    margin-right: 0;
+}
+
+.newCard{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    margin: 0 10px;
+}
+
+h2{
+    padding: 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 38%;
+}
+
+.imgSmall{
+    margin: 0 20px 0 0;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.linkCard{
+    color: rgb(56, 141, 157); 
+    text-decoration: none;
+}
+
+.containerNew{
+    position: relative;
+}
+.new{
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+}
